@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<body>
+
+   <div class="center">
+    <div class="calc_body">
+        <div>
+            <div>
+                <div class="fs_line">
+                    <div class="answer">
+                        <h1 class="display">0</h1>
+                    </div>
+                    <div>
+                        <button onclick="clearButton()" class="clear">C</button>
+                    </div>
+                </div>
+                <div class="everyline">
+                    <div>
+                        <button onclick="handleNumber(7)">7</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(8)">8</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(9)">9</button>
+                    </div>
+                    <div>
+                        <button onclick="handleOperation('/')">/</button>
+                    </div>
+                </div>
+                <div class="everyline">
+                    <div>
+                        <button onclick="handleNumber(4)">4</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(5)">5</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(6)">6</button>
+                    </div>
+                    <div>
+                        <button onclick="handleOperation('*')">*</button>
+                    </div>
+                </div>
+                <div class="everyline">
+                    <div>
+                        <button onclick="handleNumber(1)">1</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(2)">2</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber(3)">3</button>
+                    </div>
+                    <div>
+                        <button onclick="handleOperation('-')">-</button>
+                    </div>
+                </div>
+                <div class="everyline">
+                    <div>
+                        <button onclick="handleNumber(0)">0</button>
+                    </div>
+                    <div>
+                        <button onclick="handleNumber('.')">.</button>
+                    </div>
+                    <div>
+                        <button onclick="calculate()" class="equal">=</button>
+                    </div>
+                    <div>
+                        <button onclick="handleOperation('+')">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div>
+    <h1 class="center">
+        Автор Кошенков Денис ДЭ206
+    </h1>
+   </div>
+</body>
+<script src="./calc.js"></script>
+</html>
